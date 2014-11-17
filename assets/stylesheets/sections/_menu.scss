@@ -1,0 +1,47 @@
+.mw-menu-wrapper {
+  display: flex;
+  align-items:     center;
+  justify-content: center;
+  @include linear-gradient(top, $menu-primary 0, $menu-secondary 100%);
+}
+
+.mw-search {
+  flex: 1;
+}
+
+.mw-menu-item {
+  padding: .5rem;
+}
+
+.mw-category-item {
+  display: block;
+
+  padding: 15px;
+
+  text: {
+    transform:  capitalize;
+    decoration: none;
+  }
+
+  color: black;
+
+  border-bottom: 1px solid $category-border;
+  background:    $category-bg;
+}
+
+.mw-category-header {
+  display: block;
+  text: {
+    align: center;
+  }
+  font: {
+    weight: bold;
+    size:   1.2rem;
+  }
+
+  color:   white;
+  
+  background: $category-header;
+
+  padding: 15px;
+}

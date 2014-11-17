@@ -1,0 +1,15 @@
+.mw-title-heading {
+  // text stylings
+  color: white;
+  text: {
+    decoration: none;
+  }
+  font: {
+    size: 1.4rem;
+  }
+  line-height: 1.4;
+
+  // positioning
+  padding: 1rem .5rem;
+  display: block;
+}

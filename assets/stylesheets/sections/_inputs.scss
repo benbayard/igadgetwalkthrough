@@ -1,0 +1,13 @@
+.mw-search-box {
+  padding: .75rem;
+  font: {
+    size: 15px;
+  }
+  border: 1px solid black;
+  border: {
+    radius: 4px;
+  }
+  box-shadow: inset 1px 1px 2px #666;
+  width: 100%;
+  @include appearance(none);
+}
